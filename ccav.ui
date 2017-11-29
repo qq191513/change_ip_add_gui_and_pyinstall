@@ -248,9 +248,9 @@
  <connections>
   <connection>
    <sender>pushButton</sender>
-   <signal>clicked(bool)</signal>
+   <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>slot1()</slot>
+   <slot>ccav_text()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>800</x>
@@ -266,5 +266,6 @@
  <slots>
   <signal>signal1()</signal>
   <slot>slot1()</slot>
+  <slot>ccav_text()</slot>
  </slots>
 </ui>
