@@ -54,7 +54,7 @@ def modify_ip(self):
     if returnValue[0] == 0:
         print('  设置IP ok了')
     elif returnValue[0] == 1:
-        print('  设置IP ok了')
+        print('  设置IP ok了')   
         intReboot += 1
     else:
 
@@ -119,4 +119,3 @@ if __name__ == '__main__':
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-

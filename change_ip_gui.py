@@ -15,7 +15,7 @@ import change_ip_main
 class Ui_MainWindow(object):
     def fuck(self):
         change_ip_main.modify_ip(self)
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow): 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(851, 834)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -192,8 +192,3 @@ class Ui_MainWindow(object):
         self.label_12.setText(_translate("MainWindow", "arrDNSServers"))
         self.pushButton_3.setText(_translate("MainWindow", "PushButton"))
         change_ip_main.get_ip(self)
-
-
-
-
-
